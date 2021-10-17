@@ -24,15 +24,14 @@ def Request(course):
     # Return statement
     return properties
 
-MAX_THREADS = 30
-
+    
 class Properties():
 
     def __init__(self, course):
         """ Define a course with his properties """
 
-        with concurrent.futures.ThreadPoolExecutor(3) as executor:
-            properties = executor.submit(Request, course)
+        with concurrent.futures.ThreadPoolExecutor(3) as requester:
+            properties = requester.submit(Request, course)
 
         self.properties = properties
         
