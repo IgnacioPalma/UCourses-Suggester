@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/UCourses-Suggester/__init__.py
+src/UCourses-Suggester/main.py
+src/UCourses_Suggester.egg-info/PKG-INFO
+src/UCourses_Suggester.egg-info/SOURCES.txt
+src/UCourses_Suggester.egg-info/dependency_links.txt
+src/UCourses_Suggester.egg-info/top_level.txt
