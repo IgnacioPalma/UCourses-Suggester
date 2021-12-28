@@ -1,2 +1,3 @@
 # UCourses-Suggester
-Recommender system for the courses of the Pontifical Catholic University of Chile (UC).
+
+Use: python3 -m pip install UCourses-Suggester
